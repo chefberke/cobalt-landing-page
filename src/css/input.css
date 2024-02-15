@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-tblack {
+    background-color: #09090b;
+  }
+  .gradient-text {
+    color: #d6d6d6;
+    background-image: -webkit-linear-gradient(
+      0deg,
+      #d6d6d6 21%,
+      #adacac 59%,
+      #828282 87%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
